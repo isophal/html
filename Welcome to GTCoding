@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+  *{
+  margin:0;
+  padding:0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.boxx{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+}
+
+body{
+  overflow-x: hidden;
+}
+.container{
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+}
+.container video{
+  min-height:100%;
+  min-width: 100%;
+}
+nav{
+  position: absolute;
+  top:0px;
+  width: 100vw;
+  height:70px;
+  background:rgba(0,0,0,.3);
+}
+nav ul{
+  height:100%;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav ul li{
+  font-family:lato,sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style: none;
+  margin-right:50px;
+  color:#fff;
+}
+.overlay{
+  width: 100vw;
+  height:100vh;
+  background:rgba(5,1,55,.7);
+  position: absolute;
+  top:0px;
+}
+.text-container{
+  position: absolute;
+  left:50%;
+  top:50%;
+  -webkit-transform:translate(-50%, -50%);
+          transform:translate(-50%, -50%);
+}
+.heading{
+  font-family: roboto, sans-serif;
+  font-size:40pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom:10px;
+  color:#fff;
+}
+.subheading{
+  font-family: roboto,sans-serif;
+  text-align: center;
+  font-size:15pt;
+  font-style: italic;
+  color:#fff;
+}
+section{
+  text-align: center;
+  padding:16px;
+  font-family: roboto, sans-serif;
+  line-height: 2em;
+  background:#389292;
+}
+</style>
+  <title>Welcome to GTCoding</title>
+</head>
+<body>
+  <div class="container">
+    <video src="videos/bg.mp4" autoplay="true" loop="true"></video>
+  </div>
+  <div class="overlay">
+    <div class="text-container">
+      <div class="heading">GTCoding</div>
+      <div class="subheading">Learn coding from scratch</div>
+    </div>
+  </div>
+
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Projects</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+  <section>
+    <h2>Get Started</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et impedit expedita deserunt eum iure, rem aspernatur sint laboriosam sapiente, minima eius, possimus quam debitis facilis provident illo commodi cumque dolores! Ea beatae asperiores dolorem aliquam! Quidem corporis et, natus distinctio praesentium culpa dolorem veniam eos, in accusamus facilis beatae cupiditate, deleniti minima inventore aspernatur fugit ea dolor ab consequatur ducimus dolore. Neque vitae recusandae, praesentium, unde repudiandae, quo beatae molestiae perspiciatis dolore suscipit porro id dolorum provident aperiam consectetur animi optio asperiores quos autem alias laboriosam totam eaque. Nulla rem necessitatibus laudantium quia officiis facilis nostrum rerum tempora atque optio?</p>
+  </section>
+</body>
+</html>
